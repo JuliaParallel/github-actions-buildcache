@@ -21,7 +21,7 @@ spack:
       signed: false
   packages:
     all:
-      require: '%gcc@12 target=x86_64_v3'
+      require: 'target=x86_64_v3 %gcc@12'
   modules:
     prefix_inspections:
       lib: ["LD_LIBRARY_PATH"]
